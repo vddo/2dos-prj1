@@ -24,7 +24,10 @@ Website must contain of three pages:
   - picture page
     - does google's picture search
 
-# Notes
+## Notes
 
 CS50 lesson notes about html, css and libraries:  
 https://cs50.harvard.edu/web/2020/notes/0/
+
+## Todos
+  * [] Add *bootstraps* api      
