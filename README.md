@@ -22,3 +22,4 @@ Website must contain of three pages:
 CS50 lesson notes about html, css and libraries:  
 https://cs50.harvard.edu/web/2020/notes/0/
 
+Now in main .
