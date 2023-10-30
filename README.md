@@ -12,6 +12,7 @@ First time working together so lets implement some routines.
   - Stage changed files `git add <file 1> <file x>` or `git add .` (stage all files)
   - Commit changes `git commit -m "Some message"`
   - After doing that the first time you can stage and commit all files at the same time `git commit -am "Some message"`
+5. Push changes to the cloud `git push`
 
 ## Description
 
