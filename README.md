@@ -31,4 +31,18 @@ https://cs50.harvard.edu/web/2020/notes/0/
 
 ## Todos
 
+### index.html
+
   - [ ] Add *bootstraps* api      
+  - [ ] Style page like google
+  - [ ] Add 2 buttons 
+  - [ ] Link those buttons to the html/picture.html and html/advanced.html 
+  - [ ] Figure out key/value pair for image and advanced search
+  - [ ] 
+  - [ ]  
+  - [ ]
+
+
+  
+  
+  
