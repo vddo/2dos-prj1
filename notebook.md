@@ -49,3 +49,5 @@ href=„https://www.google.com/imghp?hl=en&ogbl“
 - Compare two image searches:
   - https://www.google.com/search?q=harvard&sca_esv=578762367&hl=de&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjKiODD_KSCAxUf1jgGHbyBCPEQ_AUoAXoECAIQAw&biw=1512&bih=855&dpr=2
   - https://www.google.com/search?q=harvard&tbm=isch&ved=2ahUKEwjD9ZnW_KSCAxWmrGMGHSjJBrkQ2-cCegQIABAA&oq=harvard&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgARQAFgAYKQFaABwAHgAgAFTiAFTkgEBMZgBAKoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=EmhDZcOkJ6bZjuMPqJKbyAs&bih=855&biw=1512&hl=de
+
+- SAME for both: **tbm=isch**
