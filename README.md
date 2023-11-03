@@ -43,5 +43,6 @@ https://cs50.harvard.edu/web/2020/notes/0/
 
 Best practice is to document the work steps that lead to a solution/sub-solution/solution to a sub problem.
   
+See [documentation.md](./documentation.md).
   
   
