@@ -21,8 +21,8 @@ Website must contain of three pages:
     - does standard google search
   - advanced page
     - does advanced google search
-  - picture page
-    - does google's picture search
+  - image page
+    - does google's image search
 
 ## Notes
 
@@ -37,12 +37,11 @@ https://cs50.harvard.edu/web/2020/notes/0/
   - [ ] Style page like google
   - [ ] Add 2 buttons 
   - [ ] Link those buttons to the html/picture.html and html/advanced.html 
-  - [ ] Figure out key/value pair for image and advanced search
-  - [ ] 
-  - [ ]  
-  - [ ]
+  - [x] Figure out key/value pair for image and advanced search
 
+## Documentation
 
+Best practice is to document the work steps that lead to a solution/sub-solution/solution to a sub problem.
   
   
   
