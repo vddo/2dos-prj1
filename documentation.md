@@ -4,6 +4,8 @@ Here is a documentation of what have been tried to get to the solution.
 
 ## Image Search
 
+### Key/Value Pair for Image Searches
+
 For the image search two google searches where performed. The searched term was in both cases `harvard`. Then the two `URL`s have been compare. The idea was to look for criteria like:
 
 - key/value pair that is consistent for all cases
