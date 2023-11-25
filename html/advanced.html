@@ -17,50 +17,63 @@
 
     <body>
         <h1>Advanced Search</h1>
+        <form action="https://www.google.com/search">
+            <table>
+                <tbody>
+                    <tr>
+                        <!-- Row 1 -->
+                        <td>all these words:</td>
+                        <!-- width:100% padding-right:10px -->
+                        <td colspan="3" style="width: 100%">
+                            <input
+                                type="text"
+                                name="as_q"
+                                style="width: 100%"
+                            />
+                        </td>
+                    </tr>
 
-        <table>
-            <tbody>
-                <tr>
-                    <!-- Row 1 -->
-                    <td>all these words:</td>
-                    <!-- width:100% padding-right:10px -->
-                    <td colspan="3" style="width: 100%">
-                        <input type="text" style="width: 100%" />
-                    </td>
-                </tr>
+                    <tr>
+                        <!-- Row 2 -->
+                        <td>this exact word or phrase:</td>
+                        <td colspan="3">
+                            <input type="text" style="width: 100%" />
+                        </td>
+                    </tr>
 
-                <tr>
-                    <!-- Row 2 -->
-                    <td>this exact word or phrase:</td>
-                    <td colspan="3">
-                        <input type="text" style="width: 100%" />
-                    </td>
-                </tr>
+                    <tr>
+                        <!-- Row 3 -->
+                        <td>any of these words:</td>
+                        <td colspan="3">
+                            <input type="text" style="width: 100%" />
+                        </td>
+                    </tr>
 
-                <tr>
-                    <!-- Row 3 -->
-                    <td>any of these words:</td>
-                    <td colspan="3">
-                        <input type="text" style="width: 100%" />
-                    </td>
-                </tr>
+                    <tr>
+                        <!-- Row 4 -->
+                        <td>none of these words:</td>
+                        <td colspan="3">
+                            <input type="text" style="width: 100%" />
+                        </td>
+                    </tr>
 
-                <tr>
-                    <!-- Row 4 -->
-                    <td>none of these words:</td>
-                    <td colspan="3">
-                        <input type="text" style="width: 100%" />
-                    </td>
-                </tr>
+                    <tr>
+                        <!-- Row 5 -->
+                        <td>numbers ranging from:</td>
+                        <td><input type="text" style="width: 100%" /></td>
+                        <td>to</td>
+                        <td><input type="text" style="width: 100%" /></td>
+                    </tr>
+                </tbody>
+            </table>
 
-                <tr>
-                    <!-- Row 5 -->
-                    <td>numbers ranging from:</td>
-                    <td><input type="text" style="width: 100%" /></td>
-                    <td>to</td>
-                    <td><input type="text" style="width: 100%" /></td>
-                </tr>
-            </tbody>
-        </table>
+            <div style="width: 80%; margin-top: 1em">
+                <input
+                    type="submit"
+                    value="Advanced Search"
+                    style="float: right"
+                />
+            </div>
+        </form>
     </body>
 </html>

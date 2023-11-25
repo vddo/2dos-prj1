@@ -51,3 +51,11 @@ href=„https://www.google.com/imghp?hl=en&ogbl“
   - https://www.google.com/search?q=harvard&tbm=isch&ved=2ahUKEwjD9ZnW_KSCAxWmrGMGHSjJBrkQ2-cCegQIABAA&oq=harvard&gs_lcp=CgNpbWcQAzIHCAAQigUQQzIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgARQAFgAYKQFaABwAHgAgAFTiAFTkgEBMZgBAKoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=EmhDZcOkJ6bZjuMPqJKbyAs&bih=855&biw=1512&hl=de
 
 - SAME for both: **tbm=isch**
+
+## Advanced Search
+
+https://www.google.com/search?as_q=harvard&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=§
+
+https://www.google.com/advanced_search
+
+https://www.google.com/advanced_searc?q=harvard
