@@ -54,8 +54,20 @@ href=„https://www.google.com/imghp?hl=en&ogbl“
 
 ## Advanced Search
 
-https://www.google.com/search?as_q=harvard&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=§
+https://www.google.com/search?
+as_q=harvard&
+as_epq=&
+as_oq=&
+as_eq=&
+as_nlo=&
+as_nhi=&
+lr=&cr=&
+as_qdr=all&
+as_sitesearch=&
+as_occt=any&
+as_filetype=&
+tbs=§
 
-https://www.google.com/advanced_search
+https://www.google.com/search?as_q=mit&as_epq=&as_oq=&as_eq=harvard&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=
 
-https://www.google.com/advanced_searc?q=harvard
+https://www.google.com/search?as_q=mit&as_epq=&as_oq=&as_eq=harvard
