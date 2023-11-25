@@ -68,6 +68,6 @@ as_occt=any&
 as_filetype=&
 tbs=§
 
-https://www.google.com/search?as_q=mit&as_epq=&as_oq=&as_eq=harvard&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=
+## I'm feeling lucky button
 
-https://www.google.com/search?as_q=mit&as_epq=&as_oq=&as_eq=harvard
+https://www.google.com/search?q=harvard&sourceid%3Dnavclient=Auf+Gut+Gluck

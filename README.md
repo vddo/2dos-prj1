@@ -37,7 +37,6 @@ https://cs50.harvard.edu/web/2020/notes/0/
   - [ ] Style page like google
   - [ ] Add 2 buttons 
   - [ ] Link those buttons to the html/picture.html and html/advanced.html 
-
  ### image search
 
   - [x] Figure out key/value pair for image and advanced search
@@ -45,8 +44,10 @@ https://cs50.harvard.edu/web/2020/notes/0/
 ### adnvanced search
 
   - [ ] rebuild the side with all the elements (inputs, buttons) ... without inner functions
-  - [ ] look up those key-value pairs
-  - [ ] implement those kv-pairs
+  - [x] For top block:
+  - [X] For top block:
+    - [x] implement those kv-pairs
+  - [ ] Check bottom block
 
 ## Documentation
 

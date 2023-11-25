@@ -2,14 +2,26 @@
 <html lang="en">
 
 <head>
-    <title>Search</title>
+  <title>Search</title>
+  <style>
+    .search_box_0 {
+      margin: 1em;
+      width: 80%;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
+  <h1>Google-like Search</h1>
+  <form action="https://www.google.com/search">
+    <div class="search_box_0">
+      <input type="text" name="q" style="width: 100%;" />
+    </div>
+    <div class="search_box_0">
+      <input type="submit" value="Google Search">
+      <input type="submit" name="btnI" value="I'm feeling lucky!" </div>
+  </form>
 </body>
 
 </html>
