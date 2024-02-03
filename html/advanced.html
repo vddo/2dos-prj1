@@ -5,13 +5,25 @@
   <title>Advanced</title>
   <style>
     table {
+      width: 100%;
       border-collapse: collapse;
       border-style: solid;
     }
 
     td {
+      font-size: 11px;
       padding: 1em;
       border-style: solid;
+    }
+
+    td.c1 {
+      width: 20%;
+    }
+
+    .hori-line {
+      padding-bottom: 2em;
+      margin-bottom: 2em;
+      border-bottom: 1px solid;
     }
   </style>
 </head>
@@ -22,10 +34,16 @@
     <form action="https://www.google.com/search">
       <table>
         <tbody>
+
+          <tr>
+            <!-- Row 0 -->
+            <td class="c1" style="font-size: 14px;">Find pages with...</td>
+          </tr>
+
           <tr>
             <!-- Row 1 -->
             <td>all these words:</td>
-            <td colspan="3" style="width: 100%">
+            <td colspan="3"> 
               <input type="text" name="as_q" style="width: 100%" />
             </td>
           </tr>
@@ -61,6 +79,25 @@
             <td>to</td>
             <td><input type="text" name="as_nhi" style="width: 100%" /></td>
           </tr>
+        </tbody>
+      </table>
+
+      <div class="hori-line"></div>
+      <table>
+        <tbody>
+
+          <tr>
+            <td class="c1" style="font-size: 14px">Then narrow your results by</td>
+          </tr>
+
+
+          <tr>
+            <td>all these words:</td>
+            <td colspan="3"> 
+              <input type="text" name="as_q" style="width: 100%" />
+            </td>
+          </tr>
+
         </tbody>
       </table>
 
