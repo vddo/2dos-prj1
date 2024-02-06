@@ -4,20 +4,26 @@
 <head>
   <title>Advanced</title>
   <style>
+    body {
+      font-family: "Gill Sans", sans-serif;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
-      border-style: solid;
     }
 
     td {
       font-size: 11px;
       padding: 1em;
-      border-style: solid;
     }
 
     td.c1 {
       width: 20%;
+    }
+
+    input {
+      width: 98%;
     }
 
     .hori-line {
@@ -37,14 +43,14 @@
 
           <tr>
             <!-- Row 0 -->
-            <td class="c1" style="font-size: 14px;">Find pages with...</td>
+            <td class="c1" style="font-size: 14px">Find pages with...</td>
           </tr>
 
           <tr>
             <!-- Row 1 -->
             <td>all these words:</td>
             <td colspan="3"> 
-              <input type="text" name="as_q" style="width: 100%" />
+              <input type="text" name="as_q"/>
             </td>
           </tr>
 
@@ -52,7 +58,7 @@
             <!-- Row 2 -->
             <td>this exact word or phrase:</td>
             <td colspan="3">
-              <input type="text" name="as_epq" style="width: 100%" />
+              <input type="text" name="as_epq"/>
             </td>
           </tr>
 
@@ -60,7 +66,7 @@
             <!-- Row 3 -->
             <td>any of these words:</td>
             <td colspan="3">
-              <input type="text" name="as_oq" style="width: 100%" />
+              <input type="text" name="as_oq"/>
             </td>
           </tr>
 
@@ -68,16 +74,16 @@
             <!-- Row 4 -->
             <td>none of these words:</td>
             <td colspan="3">
-              <input type="text" name="as_eq" style="width: 100%" />
+              <input type="text" name="as_eq"/>
             </td>
           </tr>
 
           <tr>
             <!-- Row 5 -->
             <td>numbers ranging from:</td>
-            <td><input type="text" name="as_nlo" style="width: 100%" /></td>
-            <td>to</td>
-            <td><input type="text" name="as_nhi" style="width: 100%" /></td>
+            <td><input type="text" name="as_nlo" style="width: 100%;" /></td>
+            <td style="width:2em;">to</td>
+            <td style="width:300px;"><input type="text" name="as_nhi" style="width:288px"/></td>
           </tr>
         </tbody>
       </table>
@@ -87,22 +93,81 @@
         <tbody>
 
           <tr>
-            <td class="c1" style="font-size: 14px">Then narrow your results by</td>
+            <td class="c1" style="font-size: 14px">Then narrow your results by...</td>
           </tr>
 
+          <tr>
+            <td>language:</td>
+            <td colspan="3"> 
+              <select name="lr" style="width: 100%">
+                  <option value="">any language</option>
+                  <option value="lang_ca">Catalan</option>
+              </<select>
+            </td>
 
           <tr>
-            <td>all these words:</td>
-            <td colspan="3"> 
-              <input type="text" name="as_q" style="width: 100%" />
+            <td>region:</td>
+            <td> 
+              <select name="cr" style="width: 100%">
+                  <option value="">any region</option>
+                  <option value="countryAF">Afghanistan</option>
+              </<select>
             </td>
           </tr>
 
+          <tr>
+            <td>last update:</td>
+            <td> 
+              <select name="as_qdr" style="width: 100%">
+                  <option value="all">anytime</option>
+                  <option value="d">last 24 hours</option>
+              </<select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>site or domain:</td>
+            <td> 
+              <input type="text" name="as_sitesearch" style="width: 98%">
+              </<input>
+            </td>
+          </tr>
+
+          <tr>
+            <td>terms appearing:</td>
+            <td> 
+              <select name="as_occt" style="width: 100%">
+                  <option value="any">anywhere in the page</option>
+                  <option value="title">in the title of the page</option>
+              </<select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>file type:</td>
+            <td> 
+              <select name="as_filetype" style="width: 100%">
+                  <option value="">any format</option>
+                  <option value="pdf">PDF</option>
+              </<select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>usage rights:</td>
+            <td> 
+              <select name="tbs" style="width: 100%">
+                  <option value="">no filtered by licence</option>
+                  <option value="sur%3Af">free to use or share</option>
+              </<select>
+            </td>
+          </tr>
+            
         </tbody>
       </table>
 
       <div style="margin-top: 1em">
-        <input type="submit" value="Advanced Search" style="float: right" />
+        <input type="submit" value="Advanced Search" style="float: right; margin-bottom: 2em; width: 10em;" />
       </div>
     </form>
   </div>
